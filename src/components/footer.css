@@ -1,0 +1,17 @@
+footer{
+    background-color: #232f3e !important;
+}
+footer h5{
+    color: #ffff !important;
+}
+.link-secondary{
+    color: #ffff !important;
+    text-decoration: none;
+}
+.link-secondary:hover{
+    text-decoration: underline;
+}
+.footlogo{
+    width: 90%;
+    height: auto;
+}
