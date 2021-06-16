@@ -8,7 +8,7 @@ const Nav = () => {
       <div className="container-fluid top-nav">
         <div className="row align-items-center">
           <div className="col-md-3 d-flex">
-            <Link className="navbar-brand" href="#">
+            <Link className="navbar-brand" to="/">
               <img src="./images/amazon.png" alt="" width="35%"/>
             </Link>
             <div className="d-flex align-items-center">
@@ -43,13 +43,25 @@ const Nav = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active text-white" aria-current="page" href="#">Home</Link>
+                <Link className="nav-link active text-white" aria-current="page" to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" href="./Demo.js">Link</Link>
+                <Link className="nav-link text-white" to="/deals">Deals</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Disabled</Link>
+                <Link className="nav-link text-white" to="#">Customer Service</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link text-white" to="#">Gift Cards</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link text-white" to="#">Registry</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link text-white" to="#">Sell</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link disabled text-white" to="#" tabindex="-1" aria-disabled="true">Disabled</Link>
               </li>
             </ul>
           </div>

@@ -10,6 +10,7 @@ const Home = () => {
     return (
         <div>
             <Nav/>
+            I have worked on Deals now. Click on Deals to see changes
             <Carousel/>
             <br/>
             <hr/>
