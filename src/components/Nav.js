@@ -27,8 +27,8 @@ const Nav = () => {
           </div>
           <div className="col-md-2">
             <ul className="d-flex justify-content-end">
-              <li className="list-unstyled"><Link to="#" className="text-decoration-none px-2 custom-link"><i className='bx bxs-user'></i></Link></li>
-              <li className="list-unstyled"><Link to="#" className="text-decoration-none px-2 custom-link"><i className='bx bxs-user-plus'></i></Link></li>
+              <li className="list-unstyled"><Link to="/signin" className="text-decoration-none px-2 custom-link"><i className='bx bxs-user'></i></Link></li>
+              <li className="list-unstyled"><Link to="/signup" className="text-decoration-none px-2 custom-link"><i className='bx bxs-user-plus'></i></Link></li>
               <li className="list-unstyled"><Link to="#" className="text-decoration-none px-2 custom-link"><i className='bx bxs-cart-add'></i></Link></li>
             </ul>
           </div>
