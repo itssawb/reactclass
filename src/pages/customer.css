@@ -1,0 +1,44 @@
+.linkss{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.linkss:hover{
+    color:chocolate;
+    text-decoration: underline;
+}
+.card-text{
+    font-size: 15px;
+}
+input[type=text] {
+    width: 50%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 100%;
+  }
+  .card:hover{
+      background: linear-gradient(to bottom, rgb(255, 255, 255) , rgb(255, 255, 255), rgb(255, 255, 255) , rgb(201, 201, 201));
+      cursor: pointer;
+  }
+  /* button */
+  .btn{
+      text-align: left;
+  }
+  .btn:hover{
+      color: darkorange;
+      font-weight: bold;
+  }
+  button:hover{
+      margin-left: 5px;
+  }
+  /* button options */
+  .dropend{
+      width: 100%;
+  }
+  .dropdown-menu{
+      border: 0px;
+  }

@@ -10,7 +10,12 @@ const Home = () => {
     return (
         <div>
             <Nav/>
-            I have worked on Deals now. Click on Deals to see changes
+            <center>
+                Changes done <br/>
+                -Worked on Customer Service<br/>
+                -Worked onSell tab<br/>
+                :Contains may not be responsive for now:
+            </center>
             <Carousel/>
             <br/>
             <hr/>

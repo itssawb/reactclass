@@ -81,7 +81,7 @@ const DealsSidebar = () => {
                         <span class="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
-                        <span className="far fa-star" style={{ color: 'white' }}></span> & Up
+                        <span className="far fa-star"></span> & Up
                     </Link><br />
                     <Link to="#">
                         <span class="fa fa-star checked"></span>

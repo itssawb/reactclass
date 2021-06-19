@@ -22,7 +22,7 @@ const Nav = () => {
           <div className="col-md-7">
             <form className="d-flex">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button className="btn btn-warning" type="submit"><i className="bi bi-search"></i></button>
+              <button className="btn btn-warning" type="submit"><i class='bx bx-search'></i></button>
             </form>
           </div>
           <div className="col-md-2">
@@ -49,7 +49,7 @@ const Nav = () => {
                 <Link className="nav-link text-white" to="/deals">Deals</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to="#">Customer Service</Link>
+                <Link className="nav-link text-white" to="/customer">Customer Service</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link text-white" to="#">Gift Cards</Link>
@@ -58,10 +58,10 @@ const Nav = () => {
                 <Link className="nav-link text-white" to="#">Registry</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to="#">Sell</Link>
+                <Link className="nav-link text-white" to="/sell">Sell</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link disabled text-white" to="#" tabindex="-1" aria-disabled="true">Disabled</Link>
+                <Link className="nav-link disabled text-white text-muted" to="#" tabindex="-1" aria-disabled="true">Coming Soon</Link>
               </li>
             </ul>
           </div>

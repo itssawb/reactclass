@@ -10,7 +10,7 @@ const Footer = () => {
   <div className="row">
     <div className="col-12 col-md">
       <img src="images/ffns.png" className="footlogo"/>
-      <small className="d-block mb-3 text-muted">&copy; 2017–2021</small>
+      <small className="d-block mb-3 text-muted"><center>&copy; all rights @SAWB</center> </small>
     </div>
     <div className="col-6 col-md">
       <h5>Features</h5>
